@@ -1,0 +1,24 @@
+{
+  "name": "todolist-cc",
+  "version": "1.0.0",
+  "description": "Convergence back-end excercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayjer/Todolist-CC.git"
+  },
+  "keywords": [],
+  "author": "Jeremy Hay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayjer/Todolist-CC/issues"
+  },
+  "homepage": "https://github.com/hayjer/Todolist-CC#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
