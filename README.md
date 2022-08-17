@@ -6,8 +6,9 @@ Convergence Concepts back-end excercise
 - POST /login
   - Submit user credentials to log in, which will allow for posting of todo-list tasks and editing/deleted your own 
     tasks
-- GET /tasks
-  - Return a list of all tasks
+- GET /tasks/?queryString
+  - Return a list of all tasks, with the optional filter queryString that will only return tasks with queryString in 
+    their description
 - GET /tasks/:id
   - Return the task with given ID
 - POST /tasks
